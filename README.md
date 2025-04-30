@@ -23,6 +23,13 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+```
+DEVELOPED BY: B R SWETHA NIVASINI
+REG NO: 212224040345
+```
+
+
+```
 admin.py
 
 from django.contrib import admin
@@ -44,6 +51,7 @@ class Movie (models.Model):
 
 class MovieAdmin(admin.ModelAdmin):
     list_display=('mid', 'mname', 'collection', 'year', 'rating')
+```
 
 
 
